@@ -1,59 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CMS.js</title>
-    <meta name="description" content="The JavaScript Site Generator">
-    <meta name="author" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-    <link rel="stylesheet" href="./css/animations.css">
-    <link rel="stylesheet" href="./css/poole.min.css">
-    <link rel="stylesheet" href="./css/poole.overrides.min.css">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <noscript>Please enable JavaScript to view this site.</noscript>
-  </head>
-  <body>
-    <!-- Main Container -->
-    <div class="container content">
-      <!-- Header -->
-      <header class="masthead">
-        <h3 class="masthead-title">
-        <a href="#" class="sitename" title="Home">
-          CMS.js
-        </a>
-        <small class="tagline">
-          The Javascript Site Generator
-        </small>
-        </h3>
-        <!-- Navigation -->
-        <nav class="nav">
-          <ul>
-            <li><a href="#/posts">Posts</a></li>
-            <li><a href="//github.com/chrisdiana/cms.js" target="_blank">Github</a></li>
-            <li><a href="#/pages/about">About</a></li>
-            <li><a href="#/pages/links">Links</a></li>
-          </ul>
+    <head>
+        <title>TheCrafters001 Documentation</title>
+        <meta name="description" content="The documentation for all of my software and games.">
+        <meta name="author" content="TheCrafters001">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/css/uikit.min.css"/>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-touch-icon.png?v=1">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png?v=1">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png?v=1">
+        <link rel="manifest" href="/ico/site.webmanifest?v=1">
+        <link rel="mask-icon" href="/ico/safari-pinned-tab.svg?v=1" color="#004000">
+        <link rel="shortcut icon" href="/ico/favicon.ico?v=1">
+        <meta name="apple-mobile-web-app-title" content="TheCrafters001">
+        <meta name="application-name" content="TheCrafters001">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#004000">
+    </head>
+    <body>
+        <nav class="uk-navbar-container uk-margin" uk-navbar>
+            <div class="uk-navbar-left">
+                <!-- Website Logo -->
+                <a class="uk-navbar-item uk-logo" href="/docs">TheCrafters001 Docs</a>
+        
+                <ul class="uk-navbar-nav">
+                    <li><a href="/docs/#/posts">Posts</a></li>
+                </ul>
+            </div>
         </nav>
-      </header>
 
-      <!-- CMS -->
-      <div id="cms"></div>
+        <div class="uk-container">
+            <!-- CMS -->
+            <div id="cms"></div>
 
-      <!-- Footer -->
-      <footer class="footer">
-        <small class="footer-text">
-        </small>
-      </footer>
-    </div>
+            <footer>
+                <p>&copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script>, TheCrafters001. <!-- Copyright code from updateyourfooter.com --></p>
+            </footer>
+        </div>
 
-    <!-- ES5 Polyfills -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.12/es5-shim.min.js"></script>
-    <!-- CMS.js -->
-    <script src="./js/cms.js"></script>
-    <!-- Config -->
-    <script src="./js/config.js"></script>
-  </body>
+        <script src="/docs/js/cms.js"></script>
+        <script src="/docs/js/config.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit.min.js" 
+                integrity="sha512-OZ9Sq7ecGckkqgxa8t/415BRNoz2GIInOsu8Qjj99r9IlBCq2XJlm9T9z//D4W1lrl+xCdXzq0EYfMo8DZJ+KA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.9/js/uikit-icons.min.js" 
+                integrity="sha512-hcz3GoZLfjU/z1OyArGvM1dVgrzpWcU3jnYaC6klc2gdy9HxrFkmoWmcUYbraeS+V/GWSgfv6upr9ff4RVyQPw==" crossorigin="anonymous"></script>
+    </body>
 </html>
